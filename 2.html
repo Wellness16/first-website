@@ -12,52 +12,65 @@ gtag('config', 'G-XJ7E194BTK');
 </script>
 </head>
 
-<body>
-  <style>
-    body{
-      margin: 0;
-    }
-    #title{
-      font-size: 45px;
-      text-align: center;
-      padding: 30px;
-      border-bottom: 2px solid green;
-    }
-    h1{
-      margin: 0;
-    }
-    #grid{
-      display: grid;
-      grid-template-columns: 240px 1fr;
-    }
-      #grid ul{
-        border-right: 2px solid green;
-        width: 150px;
-        margin: 0;
-        padding: 30px;
-      }
+<body><style>
+  section{
+    text-align:center;
+  }
+  #title{
+    font-size:3rem;
+    text-decoration:none;
+    display:inline-block;
+  }
+  div{
+    font-size:1.5rem;
+    text-align:center;
+  }
+  div>a{
+    text-decoration:none;
+    color:black;
+    display:inline-block;
+    width:150px;
+    transition: background-color 0.7s, font-size 0.15s;
+  }
+  div>a:hover{
+    background-color:rgba(0,255,0,0.5);
+    font-size: 1.7rem;
+  }
+  nav{
+    display:inline-block;
+  }
     #article h2{
       padding: 15px;
       font-size: 30px;
-    }
-    a{
-      text-decoration: none;
-      font-size: 25px;
-      color: gray;
-      margin-left: 10px;
     }
     h2{
       padding: 15px;
     }
   </style>
-  <h1><a href = "index.html" style = "color : green"><div id = "title">WELLNESS</div></a></h1>
-<div id = "grid">
-  <ul>
-    <li><a href = "1.html">Who am I?</a></li>
-    <li><a href = "2.html">Book Report</a></li>
-    <li><a href = "3.html">Something</a></li>
-  </ul>
+  <section>
+    &nbsp;
+    <h1><a href = "index.html" style = "color : green"><div id = "title">WELLNESS</div></a></h1>
+    &nbsp;
+  </section>
+  <div>
+    <nav>
+      |
+    </nav>
+      <a href = "1.html">Who am I?</a>
+    <nav>
+      |
+    </nav>
+      <a href = "2.html">Book Report</a>
+    <nav>
+      |
+    </nav>
+      <a href = "3.html">Something</a>
+    <nav>
+      |
+    </nav>
   <div id = "article">
+    &nbsp;
+    &nbsp;
     <h2>About some books that I read</h2>
   </div>
 </div>
